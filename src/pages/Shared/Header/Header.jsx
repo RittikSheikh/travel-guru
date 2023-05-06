@@ -5,7 +5,6 @@ import {
   Typography,
   Button,
   IconButton,
-  Card,
 } from "@material-tailwind/react";
 import logo from '../../../assets/images/images/icons/logo.png';
 
@@ -97,7 +96,7 @@ const Header = () => {
             <img style={{width: '120px', height: '56px'}} src={logo} alt="" />
           </Typography>
 
-          <div className='header-search hidden md:block'>
+          <div className='header-search hidden md:block lg:hidden'>
     <div className="relative flex items-center w-full h-12 rounded-lg focus-within:shadow-lg bg-white overflow-hidden">
         <div className="grid place-items-center h-full w-12 text-gray-300">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -166,7 +165,7 @@ const Header = () => {
         </div>
         <MobileNav open={openNav}>
           {navList}
-          <Button variant="gradient" size="sm" fullWidth className="mb-2">
+          <Button variant="gradient" color='amber' size="sm" fullWidth className="mb-2">
             <span>Login</span>
           </Button>
         </MobileNav>
