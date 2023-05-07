@@ -115,7 +115,7 @@ const Header = () => {
           <div className="flex items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>
             <Button
-            style={{borderRadius: '5px', width: '104px', height: '44px' }}
+            style={{borderRadius: '5px', width: '104px', height: '44px', backgroundColor:'#F9A51A;' }}
               
               variant="gradient"
               color="amber"
@@ -165,7 +165,7 @@ const Header = () => {
         </div>
         <MobileNav open={openNav}>
           {navList}
-          <Button variant="gradient" color='amber' size="sm" fullWidth className="mb-2">
+          <Button variant="gradient" style={{backgroundColor:'#F9A51A'}} size="sm" fullWidth className="mb-2">
             <span>Login</span>
           </Button>
         </MobileNav>
