@@ -36,7 +36,6 @@ const Header = () => {
         <input
         className="peer h-full w-full outline-none text-sm text-gray-700 pr-2"
         type="text"
-        id="search"
         placeholder="Search something.." /> 
     </div>
 </div>
@@ -106,7 +105,6 @@ const Header = () => {
         <input
         className="peer h-full w-full outline-none text-sm text-gray-700 pr-2"
         type="text"
-        id="search"
         placeholder="Search something.." /> 
     </div>
 </div>
@@ -115,7 +113,7 @@ const Header = () => {
           <div className="flex items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>
             <Button
-            style={{borderRadius: '5px', width: '104px', height: '44px', backgroundColor:'#F9A51A;' }}
+            style={{borderRadius: '5px', width: '104px', height: '44px', backgroundColor:'#F9A51A' }}
               
               variant="gradient"
               color="amber"
