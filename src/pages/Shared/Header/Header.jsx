@@ -163,7 +163,7 @@ const Header = () => {
         </div>
         <MobileNav open={openNav}>
           {navList}
-          <Button variant="gradient" style={{backgroundColor:'#F9A51A'}} size="sm" fullWidth className="mb-2">
+          <Button style={{backgroundColor:'#F9A51A'}} size="sm" fullWidth className="mb-2">
             <span>Login</span>
           </Button>
         </MobileNav>

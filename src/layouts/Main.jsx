@@ -6,7 +6,9 @@ const Main = () => {
     return (
         <>
             <Header />
+            <div className='p-2 md:px-[135px]'>
             <Outlet />
+            </div>
         </>
     );
 };

@@ -14,11 +14,11 @@ const Signup = () => {
                 <div className='form-main'>
                     <h1>Create an account</h1>
                     <form>
-                        <input className='input1' type="text" name="firstName" id="" placeholder='Frist Name' /> <br />
-                        <input className='input1' type="text" name="firstName" id="" placeholder='Last Name' /> <br />
-                        <input className='input1' type="text" name="firstName" id="" placeholder='Username of Email' /> <br />
-                        <input className='input1' type="text" name="firstName" id="" placeholder='Password' /> <br />
-                        <input className='input1' type="text" name="firstName" id="" placeholder='Confirm Password' /> <br />
+                        <input className='input1' type="text" name="firstName" placeholder='Frist Name' /> <br />
+                        <input className='input1' type="text" name="lastName"   placeholder='Last Name' /> <br />
+                        <input className='input1' type="text" name="userNameOrEmail" placeholder='Username of Email' /> <br />
+                        <input className='input1' type="password" name="password" placeholder='Password' /> <br />
+                        <input className='input1' type="password" name="confirmPassword" placeholder='Confirm Password' /> <br />
                         <input className=' mb-4 w-full h-12' style={{ backgroundColor: '#F9A51A', fontWeight: '500' }} type="submit" value="Create an account" />
                     </form>
                     <p className='text-center mb-6'>Already have an account? <Link to='/login'><span className='text-orange-400 underline'>Login</span></Link></p>
